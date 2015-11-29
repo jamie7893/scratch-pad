@@ -20,12 +20,12 @@ You can duplicate this file and rename it to represent whatever other studies yo
 1. Implement the lodown.js as a `node.js` module, duplicating the API of the wonderful lodash library (see <a href="https://lodash.com/" target="_blank">lodash.com</a>).
 2. Test your higher order functional programming you've implemented in `lodown.js` by implementing the `customers.js` file, which should load both the `lodash` module and the `customers.json` file, located in the directory, `lodown/data/customers.json`.  The code you write in your `customers.js` app should load the `customers.json`, then make use of your `lodash` module's API, testing your functional methods, like each, filter, map, reduce, pluck, where, every, find, etc.  If you do not know how these functions operate, see the lodash.com docs.
 3. Try to decipher things like:
-    4. how many males, how many females
-    5. oldest customer, youngest customer
-    6. average balance
-    5. how many customer's names begin with some letter
-    5. how many customer's friend's names begin with some letter
-    6. how many customers are friends
+    4. how many males, how many females ------------------------
+    5. oldest customer, youngest customer -----------------------
+    6. average balance ------------------------------------------------
+    5. how many customer's names begin with some letter --------------------
+    5. how many customer's friend's names begin with some letter ---------
+    6. how many customers are friends --------------------------
     7. how many customers have friends in common
     8. most common tags
 4. If you do not know how to create and load a local `node.js` module, Google it!
